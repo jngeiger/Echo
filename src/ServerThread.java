@@ -39,7 +39,6 @@ public class ServerThread extends Thread {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println("BIN IN DER SCHLEIFE SERVER");
             osw.println(echo + input);
         }
     }
